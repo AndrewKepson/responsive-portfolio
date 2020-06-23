@@ -1,0 +1,19 @@
+#navbar {
+    background-color: #FFFFFF;
+}
+
+.navbar-brand {
+    background-color: #59AAA5;
+}
+
+h2 {
+    color: #59AAA5;
+}
+
+#content-row {
+   background-color: #FFFFFF; 
+}
+
+.container-fluid {
+    background-color: #EDEDED;
+}
