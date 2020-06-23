@@ -10,10 +10,27 @@ h2 {
     color: #59AAA5;
 }
 
+#your-name {
+   color: #FFFFFF;
+    padding: 20px;
+}
+
 #content-row {
    background-color: #FFFFFF; 
 }
 
 .container-fluid {
     background-color: #EDEDED;
+}
+
+#outer-row {
+    background-color: #FFFFFF;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+.container {
+    padding: 30px;
 }
