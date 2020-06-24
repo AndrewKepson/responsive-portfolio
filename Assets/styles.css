@@ -6,6 +6,15 @@
     background-color: #59AAA5;
 }
  
+/* Make media query
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+
+} */
+
 
 h2 {
     color: #59AAA5;
@@ -38,6 +47,8 @@ body {
     margin-right: 75px;
 }
 
-/* .img-row {
-    align-items: flex;
-} */
+.img-row {
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+}
