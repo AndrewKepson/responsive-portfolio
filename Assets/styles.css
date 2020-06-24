@@ -5,6 +5,7 @@
 .navbar-brand {
     background-color: #59AAA5;
 }
+ 
 
 h2 {
     color: #59AAA5;
@@ -12,7 +13,7 @@ h2 {
 
 #your-name {
    color: #FFFFFF;
-    padding: 20px;
+    margin-left: 20px;
 }
 
 #content-row {
@@ -32,5 +33,11 @@ body {
 }
 
 .container {
-    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 75px;
 }
+
+/* .img-row {
+    align-items: flex;
+} */
