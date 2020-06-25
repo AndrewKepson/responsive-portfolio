@@ -17,7 +17,6 @@ h1 {
     color: #59AAA5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
-    font-weight: bold;
     padding-left: 15px;
 }
 
@@ -35,19 +34,26 @@ hr {
     margin-right: 75px;
 }
 
+.container-fluid {
+    background-color: #EDEDED;
+}
+
 .img-row {
-    display: flex;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
     margin-top: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
-    
+
 }
 
-.container-fluid {
-    background-color: #EDEDED;
+.img-fluid {
+    margin: 5px;
+    padding: 5px;
 }
 
 .page-footer-fluid {
@@ -64,10 +70,6 @@ hr {
     margin: 10px;
     padding: 5px;
 }
-
-/* .nav-item {
-    float: right;
-} */
 
 #your-name {
     color: #FFFFFF;
@@ -86,15 +88,15 @@ hr {
 }
 
 #portfolioPhotos {
-    display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-flow: column;
 }
 
 #form-container {
-    background-color: #FFFFFF;
     align-items: stretch;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 20px;
 }
 
 #submitButton {
@@ -120,12 +122,12 @@ hr {
     top: 1px;
 }
 
-/* @media (min-width:768px) {
-.navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
-    text-align: center;
+@media (max-width:768px) {
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
 
     }
-} */
+}
