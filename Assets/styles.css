@@ -4,19 +4,29 @@
 
 .navbar-brand {
     background-color: #59AAA5;
+    display: inline-block;
 }
 
 body {
     background-color: #EAEAEA;
+    margin: 0;
+    padding: 0;
 }
 
-h2 {
+h1 {
     color: #59AAA5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
     padding-left: 15px;
 }
 
 hr {
     padding-left: 15px;
+}
+
+.footer {
+    background-color: gray;
 }
 
 .container {
@@ -55,9 +65,14 @@ hr {
     padding: 5px;
 }
 
+/* .nav-item {
+    float: right;
+} */
+
 #your-name {
     color: #FFFFFF;
-    margin-left: 20px;
+    margin-left: 50px;
+    padding-top: 10px;
 }
 
 #content-row {
@@ -66,9 +81,12 @@ hr {
 
 #outer-row {
     background-color: #FFFFFF;
+    margin: 20px;
+    padding: 20px;
 }
 
 #portfolioPhotos {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: column;

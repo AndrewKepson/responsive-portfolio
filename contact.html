@@ -12,13 +12,31 @@
 </head>
 <body>
 
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-sm bg-light">
+    <div class="navbar-brand" id="your-name">Andrew Kepson</div>
+    <ul class="navbar-nav ml-auto mt-2">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+</nav>
+
+<!-- Form container -->
     <div class="container">
-        <div class="row" id="outer-row">
-            <div class="col-md-8  w-50 h-50">
-                <h2>Contact</h2>
+        <div class="row w-50 h-50" id="form-container">
+            <div class="col-md">
+                <h1>Contact</h1>
                 <hr>
-                <form action="">
-                    <div class="form-row">
+                <form class="block form-horizontal" action="">
+                    <section class="form-row">
                         <div class="form-group col-md-12">
                             <label for="inputName">Name</label>
                             <input type="text" class="form-control" id="inputName" placeholder="John Smith">
@@ -29,16 +47,22 @@
                         </div>
                         <div class="form-group col-md-12">
                             <label for="inputMessage">Message</label>
-                            <input type="text" class="form-control" id="messageText">
+                            <textarea class="form-control rounded-0" id="messageText" rows="10" placeholder=""></textarea>
                             <button type="submit" class="btn btn-info" id="submitButton">Submit</button>
                         </div>
-                    </div>
+                    </section>
                 </form>
 
             </div>
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small> &copy; Copyright</small>
+        </div>
+    </footer>
 
 
 </body>

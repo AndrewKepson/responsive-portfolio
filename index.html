@@ -25,26 +25,28 @@
 
 <body>
     <!-- Nav Bar -->
-    <nav class="navbar-nav navbar-expand-lg navbar-light bg-light" #="navbar">
-        <a class="navbar-brand" href="" id="your-name">Andrew Kepson</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-            </div>
-        </div>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <a class="navbar-brand" id="your-name">Andrew Kepson</a>
+        <ul class="navbar-nav ml-auto mt-2">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
     </nav>
+
     <!-- Main Container -->
 
     <div class="container">
-        <div class="row" id="outer-row">
-            <div class="col-md-8  w-50 h-50">
-                <h2>About Me</h2>
+        <div class="row w-50 h-50" id="outer-row">
+            <figure class="col-md-8">
+                <h1>About Me</h1>
                 <hr>
                 <img src="https://picsum.photos/id/1025/150/150" alt="">
                 鲜大说洪宋灰绪畴思皇，关太是是范心也于入支老派，公动事极苦勉以沉人未拢招貂我到郭那巴后，韩关放看，故血罚起家国竟当，非历下，叹他份娘丹秦何归千罪救落人了公，挟商可重己领变才逃秦王，乡反会受把太联绪日太绛有，保感是耐入家气上也拆词降，鲜自为罪游廿从可国斗可徨遗因策命法，案的迷生备要娇流，何我了侯，的
@@ -52,11 +54,16 @@
                 <p>
                     心百为方见头司位承彷陀，是最劫，郭也救。
                 </p>
-            </div>
+            </figure>
         </div>
     </div>
 
-
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small> &copy; Copyright</small>
+        </div>
+    </footer>
 
 </body>
 
