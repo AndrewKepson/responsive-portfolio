@@ -1,125 +1,12 @@
-#navbar {
-    background-color: #FFFFFF;
-}
-
-.navbar-brand {
-    background-color: #59AAA5;
-    display: inline-block;
+.navbar {
+    background-color:#092A4D;
 }
 
 body {
-    background-color: #EAEAEA;
+    background-color: #2B4C6F;
+    text-decoration-color: #ACB2B9;
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    color: #59AAA5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 26px;
-    padding-left: 15px;
-}
-
-hr {
-    padding-left: 15px;
-}
-
-.footer {
-    background-color: gray;
-}
-
-.container {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 75px;
-}
-
-.container-fluid {
-    background-color: #EDEDED;
-}
-
-.img-row {
-    display: grid;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    margin-top: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-
-}
-
-.img-fluid {
-    margin: 5px;
-    padding: 5px;
-}
-
-.page-footer-fluid {
-    background: #666666;
-    text-decoration: #FFFFFF;
-    text-align: center;
-    border: 20px;
-    height: 15px;
-    margin: 20px;
-    padding: 20px;
-}
-
-.rounded {
-    margin: 10px;
-    padding: 5px;
-}
-
-#your-name {
-    color: #FFFFFF;
-    margin-left: 50px;
-    padding-top: 10px;
-}
-
-#content-row {
-    background-color: #FFFFFF;
-}
-
-#outer-row {
-    background-color: #FFFFFF;
-    margin: 20px;
-    padding: 20px;
-}
-
-#portfolioPhotos {
-    justify-content: space-around;
-}
-
-#form-container {
-    align-items: stretch;
-    background-color: #FFFFFF;
-    margin-bottom: 20px;
-    padding: 10px;
-    padding-top: 20px;
-}
-
-#submitButton {
-    background-color: #59aaa5;
-    border-radius: 3px;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 16px;
-    padding: 8px 24px;
-    text-decoration: none;
-    text-shadow: 0px 2px 1px #5b6178;
-    margin-top: 20px;
-}
-
-#submitButton:hover {
-    background-color: #59aaa5;
-}
-
-#submitButton:active {
-    position: relative;
-    top: 1px;
 }
 
 @media (max-width:768px) {
@@ -131,3 +18,23 @@ hr {
 
     }
 }
+
+/* Color Guide */
+
+/* As hex codes */
+
+/* .color-primary-0 { color: #2B4C6F }	 Main Primary color 
+.color-primary-1 { color: #ACB2B9 }
+.color-primary-2 { color: #5F7790 }
+.color-primary-3 { color: #092A4D }
+.color-primary-4 { color: #01162C }
+
+
+
+ As RGBa codes 
+
+.rgba-primary-0 { color: rgba( 43, 76,111,1) }	 Main Primary color 
+.rgba-primary-1 { color: rgba(172,178,185,1) }
+.rgba-primary-2 { color: rgba( 95,119,144,1) }
+.rgba-primary-3 { color: rgba(  9, 42, 77,1) }
+.rgba-primary-4 { color: rgba(  1, 22, 44,1) } */
