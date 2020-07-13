@@ -1,5 +1,9 @@
 .navbar {
     background-color:#092A4D;
+    color: #ACB2B9;
+    padding: 15px;
+    padding-bottom: 35px;
+    opacity: 80%;
 }
 
 body {
@@ -7,6 +11,12 @@ body {
     text-decoration-color: #ACB2B9;
     margin: 0;
     padding: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width:768px) {
