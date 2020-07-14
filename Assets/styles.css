@@ -2,7 +2,7 @@
     background-color:#092A4D;
     color: #ACB2B9;
     padding: 15px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
     opacity: 80%;
 }
 
@@ -20,10 +20,17 @@ footer {
     width: 100%;
 }
 
-.grid-container {
+.gallery-container {
     display: grid;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; 
+}
+
+.grid-idem {
     justify-content: space-evenly;
+    object-fit: cover;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 #about-me {
