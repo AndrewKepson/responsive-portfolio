@@ -11,12 +11,33 @@ body {
     text-decoration-color: #ACB2B9;
     margin: 0;
     padding: 0;
+    overflow: scroll;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#about-me {
+    color: #ACB2B9;
+    display: inline;
+    margin: 20px;
+}
+
+#contact-form {
+    display: none;
+}
+
+#portfolio-grid {
+    display: none;
 }
 
 @media (max-width:768px) {
