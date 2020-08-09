@@ -12,79 +12,15 @@
     <!-- Meta data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrew Kepson's Virtual Portfolio</title>
+    <title>Redirect...</title>
 </head>
 
 <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-md">
-        <h1 class="navbar-brand" id="your-name">Andrew Kepson</h1>
-        <ul class="navbar-nav ml-auto mt-2">
-            <li class="nav-item">
-                <a class="nav-link font-weight-light" href="index.html" onclick="loadAbout()">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link font-weight-light" href="portfolio.html" onclick="loadPortfolio()">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link font-weight-light" href="contact.html" onclick="loadContact()">Contact</a>
-            </li>
-        </ul>
-
-    </nav>
-
-    <!-- Main Container -->
-    <div class="container">
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p>Andrew Kepson is a web developer from Colorado Springs, Colorado.</p>
-            <p>Growing up during the explosion of the internet and mobile technology, like many others I had a natural interest in technology, but in school my true passion was writing. I majored in English at the University of Colorado, Colorado Springs, and while I was aware of the rapid changes in technology happening around me, I saw computers and programming as a rigid science that would not quench my thirst for creativity.</p>
-            <p>Eventually I found myself writing content for the internet, and it was when I found a position working at a digital marketing firm that I was introduced to the world of web development up close. In addition to picking up some of the basics at work, I found that the web developers around me had the greatest ability to see their ideas become reality, with a lot of flexibility to pursue their interests professionally.</p>
-            <p>Like so many others, the COVID-19 pandemic disrupted my plans, but I saw an opportunity to finally learn the skills that I needed to build a career in web development. I enrolled at the University of Denver's web development bootcamp and began devoting myself to learning JavaScript. Please enjoy my portfolio and do not hesitate to contact me with any requests for web development services.</p>
-            <p>In my free time I enjoy hiking and running on Colorado's trails, playing the guitar, and hanging out with my wife and our two dogs!</p>
-
-        </section>
-        <section id="portfolio-grid">
-            <div class="gallery-container">
-                <a href="https://andrewkepson.github.io/improving-seo-marketing-webpage-assmt1/"><img class="grid-idem" src="Assets/Gallery-Images/SEO-Site-Example.png" height="300px" alt="A homepage for a digital marketing firm."></a>
-                <a href="https://andrewkepson.github.io/password-generator-using-javascript/index.html"><img class="grid-item" src="Assets/Gallery-Images/pass-generator.png" height="300px" alt="A password generator."></a>
-                <a href="https://andrewkepson.github.io/coding-quiz/"><img class="grid-item" src="Assets/Gallery-Images/javascript-quiz.png" height="300px" alt="A web-based coding quiz."></a>
-                <a href="https://andrewkepson.github.io/Day-Planner/Develop/index.html"><img class="grid-item" src="Assets/Gallery-Images/day-planner.png" alt="A work day planner to schedule your day."></a>
-                <a href="https://andrewkepson.github.io/weather-app/"><img class="grid-item" src="Assets/Gallery-Images/weather-dashboard.png" alt="A web-based weather search and display application."></a>
-                <img class="grid-item" src="https://picsum.photos/id/211/200/200" alt="">
-                <img class="grid-item" src="https://picsum.photos/id/237/200/200" alt="">
-                <img class="grid-item" src="https://picsum.photos/id/211/200/200" alt="">
-            </div>
-        </section>
-        <form class="block form-horizontal" action="" id="contact-form">
-            <section class="form-row">
-                <div class="form-group col-md-12">
-                    <label for="inputName">Name</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="John Smith">
-                </div>
-                <div class="form-group col-md-12">
-                    <label for="inputEmail">Email</label>
-                    <input type="text" class="form-control" id="inputEmail" placeholder="example@gmail.com">
-                </div>
-                <div class="form-group col-md-12">
-                    <label for="inputMessage">Message</label>
-                    <textarea class="form-control rounded-0" id="messageText" rows="10"
-                        placeholder=""></textarea>
-                    <!-- Submit Button -->
-                    <button type="submit" class="btn btn-info" id="submitButton">Submit</button>
-                </div>
-            </section>
-        </form>
-    </div>
-
-    <!-- Footer -->
-    <footer class="py-4 bg-dark text-white-50">
-        <div class="text-center">
-            <small> &copy; Copyright</small>
-        </div>
-    </footer>
-    <!-- MyScript -->
-    <script type="text/javascript" src="myScript.js"></script>
+    <script>
+        window.onload = function () {
+            window.location.href="./views/about.html";
+        }
+    </script>
 </body>
 
 </html>
