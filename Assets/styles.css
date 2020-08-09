@@ -22,12 +22,12 @@ footer {
 
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px; 
 }
 
 .grid-idem {
-    justify-content: space-evenly;
+    justify-content: space-around;
     object-fit: cover;
     max-height: 300px;
     max-width: 300px;
