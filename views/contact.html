@@ -1,67 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Web Development by Andrew Kepson - Contact Me</title>
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body class="" style="background-image: linear-gradient(90deg, #56CCF2, #2F80ED); background-color: #137bb4; grid-template-rows: 100px;">
-        <nav class="bg-dark navbar navbar-dark navbar-expand-lg text-lg-right text-right text-sm-right">
-            <a class="navbar-brand" href="#">Web Development by Andrew Kepson</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-right" id="navbarText" style="display: inline-block;">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assets/styles.css">
+    <link rel="stylesheet" href="../Assets/contact-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Andrew Kepson Web Development</title>
+</head>
+<body>
+    <main>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-align-justify"></i>
+                </label>
+                <label class="logo">Andrew Kepson Web Development</label>
+                <ul>
+                    <li>
+                        <a href="./about.html">About Me</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    <li>
+                        <a href="./portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                    <li>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
-                <span class="navbar-text"></span>
-            </div>
-        </nav>
-        <nav aria-label="breadcrumb" class="float-right">
-</nav>
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <div class="container mb-4 ml-4 mr-4 mt-4 pb-4 pl-4 pr-5 pt-4 text-dark">
+            </nav>
             <form>
-                <div class="form-group"> 
-                    <label for="formInput91">Name</label>                     
-                    <input type="text" class="form-control" id="formInput91" placeholder="Enter name"> 
-                </div>
-                <div class="form-group"> 
-                    <label for="formInput127">Email</label>                     
-                    <input type="text" class="form-control" id="formInput127" placeholder="Enter name"> 
-                </div>
-                <div class="form-group"> 
-                    <label for="formInput133">Message</label>                     
-                    <textarea class="form-control" rows="3" id="formInput133"></textarea> 
-                </div>
-                <span class="form-text">Would you like to be added to my email list? You will recieve web development tips for small business owners, special offers, and important news related to building your presence on the web!<div class="custom-control custom-checkbox"> 
-                        <input type="checkbox" class="custom-control-input" id="formCustomCheckbox228"> 
-                        <label class="custom-control-label" for="formCustomCheckbox228">Yes! Please add me to your email list!</label>                         
-                    </div></span>
+                <p><label for="name">Name:</label> <input type="text" id="name" name="user_name" placeholder="name"></p>
+
+                <p><label for="email">Email Address:</label> <input type="text" id="email" placeholder="Email Address"></p>
+
+                <p><label for="message">Message:</label> <textarea name="" id="user-message" cols="100" rows="10"></textarea></p>
+
+                <button type="submit" id="submitBtn">Send Message</button>
             </form>
-        </div>
-        <button type="submit" onclick="location.href='mailto:andyjkepson@gmail.com';" class="btn btn-block btn-outline-light btn-secondary mb-auto ml-auto mr-auto mt-3 p-3" id="contact-submit">Submit</button>
-</div>
-    </body>
-    <nav class="bg-dark justify-content-end mt-5 navbar navbar-dark pb-auto pt-auto" style="justify-content: flex-end; padding-top: 12px; padding-bottom: 12px;">
-        <a class="navbar-brand" href="#" style="text-transform: lowercase; text-shadow: -7px 1px 18px; margin-top: 12px; margin-bottom: 12px;">Copyright 2020 Andrew Kepson</a>
-    </nav>
+        </main>
+        <footer>
+            <a href="https://www.linkedin.com/in/andrewkepson/"><img src="../Assets/Glyphs/iconfinder_5296_-_LinkedIn_1314173.png" alt="Connect with me on LinkedIn"></a>
+            <a href="https://github.com/AndrewKepson"><img src="../Assets/Glyphs/iconfinder_github-social-media_765246.png" alt="Check out my code on GitHub"></a>
+        </footer>
+    </div>
+</body>
 </html>

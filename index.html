@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- My stylesheet -->
-    <link rel="stylesheet" href="Assets/styles.css">
-    <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Meta data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirect...</title>
+    <link rel="stylesheet" href="Assets/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Andrew Kepson Web Development</title>
 </head>
-
 <body>
-    <script>
-        window.onload = function () {
-            window.location.href="./views/about.html";
-        }
-    </script>
+    <main>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-align-justify"></i>
+                </label>
+                <label class="logo">Andrew Kepson Web Development</label>
+                <ul>
+                    <li>
+                        <a href="./views/about.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="./views/portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="./views/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="img-holder"><img src="./Assets/Gallery-Images/picography-wordpress-php-code-small.jpg"></div>
+        </main>
+        <footer>
+            <a href="https://www.linkedin.com/in/andrewkepson/"><img src="./Assets/Glyphs/iconfinder_5296_-_LinkedIn_1314173.png" alt="Connect with me on LinkedIn"></a>
+            <a href="https://github.com/AndrewKepson"><img src="./Assets/Glyphs/iconfinder_github-social-media_765246.png" alt="Check out my code on GitHub"></a>
+        </footer>
+    </div>
 </body>
-
 </html>
